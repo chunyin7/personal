@@ -22,17 +22,18 @@ body {
     padding: 20px;
 
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr 800px 1fr;
     align-items: start;
     gap: 10px;
 }
 
 main {
     grid-column: 2;
+    width: 100%;
 }
 
 .home {
-    font-size: 144px;
+    font-size: 120px;
     color: #808080;
     text-decoration: none;
     line-height: 1;
@@ -49,10 +50,14 @@ main {
     display: flex;
     gap: 0;
     justify-self: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .navbar a {
     display: block;
+    flex: 1;
+    text-align: center;
     padding: 16px 36px;
     border: 1px dashed #666;
     color: #a0a0a0;
@@ -155,4 +160,31 @@ main {
     .navbar a:first-child {
         border-top: none;
     }
+}
+
+.about-container {
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+
+.about-flourish {
+    font-size: 96px;
+    font-family: "Yinit";
+    margin-top: 12px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 16px;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.about-name {
+    font-size: 32px;
+    font-variant: small-caps;
+    color: #c0c0c0;
 }
