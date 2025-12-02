@@ -1,0 +1,27 @@
+[[experience]]
+title = "co-founder, cto"
+company = "inflect labs"
+start = "apr. '25"
+end = "present"
+description = "shipping fullstack products for startups, $100k+ revenue and counting"
+
+[[experience]]
+title = "asd intern"
+company = "google"
+start = "nov. '25"
+end = "present"
+description = "java, kotlin for embedded & projected google maps mobile"
+
+[[experience]]
+title = "swe intern"
+company = "surgical xr"
+start = "nov. '24"
+end = "feb. '25"
+description = "empowering the proceduralists of the future with ai. computer vision r&d, frontend devevelopment"
+
+[[experience]]
+title = "eng intern"
+company = "endoluminal sciences"
+start = "dec. '21"
+end = "feb. '22"
+description = "building next gen medical devices. lead construction and qa for $400,000 commision of electronic masks."

@@ -1,0 +1,19 @@
+[[project]]
+name = "halcyon"
+description = "[wip] fast, extensible macos launcher & productivity utility that just works, built in rust"
+link = "https://github.com/chunyin7/halcyon"
+
+[[project]]
+name = "stele"
+description = "minimal macos clipboard utility in rust"
+link = "https://github.com/chunyin7/stele"
+
+[[project]]
+name = "neural network from scratch"
+description = "simple mnist nn from scratch in C"
+link = "https://github.com/chunyin7/MNIST-NeuralNetwork-C"
+
+[[project]]
+name = "chunyin.me"
+description = "this website"
+link = "https://github.com/chunyin7/personal"
