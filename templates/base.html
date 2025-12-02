@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="/static/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <a href="/" class="home">M</a>
+        <nav class="navbar">
+            <a href="writing">Writing</a>
+            <a href="reading">Reading</a>
+            <a href="listening">Listening</a>
+            <a href="experience">Experience</a>
+            <a href="Projects">Projects</a>
+        </nav>
+        {% block content %}{% endblock %}
+        <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js"></script>
+    </body>
+</html>
