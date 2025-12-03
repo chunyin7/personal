@@ -10,16 +10,22 @@
             rel="stylesheet"
         />
     </head>
-    <body>
-        <a href="/" class="home">M</a>
-        <nav class="navbar">
-            <a href="writing">Writing</a>
-            <a href="reading">Reading</a>
-            <a href="listening">Listening</a>
-            <a href="experience">Experience</a>
-            <a href="Projects">Projects</a>
-        </nav>
-        {% block content %}{% endblock %}
+    <body
+        class="w-screen flex flex-col items-center font-serif bg-zinc-900 text-gray-300"
+    >
+        <div class="w-[800px]">
+            <nav
+                class="flex justify-between w-full items-center [font-variant:small-caps] text-lg *:hover:font-semibold"
+            >
+                <a href="/" class="font-cloister text-[36px]">M</a>
+                <a href="writing">Writing</a>
+                <a href="reading">Reading</a>
+                <a href="listening">Listening</a>
+                <a href="experience">Experience</a>
+                <a href="Projects">Projects</a>
+            </nav>
+            {% block content %}{% endblock %}
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js"></script>
     </body>
 </html>

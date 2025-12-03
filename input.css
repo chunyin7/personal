@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+    --font-cloister: "Cloister Black", serif;
+    --font-yinit: "Yinit", serif;
+}
+
+@font-face {
+    font-family: "Yinit";
+    src: url("/assets/fonts/yinit-merged.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cloister Black";
+    src: url("/assets/fonts/CloisterBlack.ttf") format("truetype");
+}
