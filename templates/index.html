@@ -24,6 +24,35 @@
             solve. Passionate about maths, physics, computers and using
             well-made software.
         </div>
+        <div class="grid grid-cols-2 p-6">
+            <div class="flex flex-col gap-3">
+                <span class="text-xl font-semibold [font-variant:small-caps]"
+                    >Experience</span
+                >
+                {% for w in work %}
+                <div class="flex flex-col text-sm">
+                    <span class="text-lg">{{ w.title }} @ {{ w.company }}</span>
+                    <span class="text-zinc-500"
+                        >{{ w.start }} - {{ w.end }}</span
+                    >
+                    <span>{{ w.description }}</span>
+                </div>
+                {% endfor %}
+                <a href="/experience" class="text-sm text-center">see all</a>
+            </div>
+            <div class="flex flex-col gap-3">
+                <span class="text-xl font-semibold [font-variant:small-caps]"
+                    >Projects</span
+                >
+                {% for p in projects %}
+                <div class="flex flex-col text-sm">
+                    <a href="{{ p.link }}" class="text-lg">{{ p.name }}</a>
+                    <span>{{ p.description }}</span>
+                </div>
+                {% endfor %}
+                <a href="/projects" class="text-sm text-center">see all</a>
+            </div>
+        </div>
     </div>
 </main>
 <script>
