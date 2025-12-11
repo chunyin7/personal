@@ -24,7 +24,7 @@
             solve. Passionate about maths, physics, computers and using
             well-made software.
         </div>
-        <div class="grid grid-cols-2 p-6">
+        <div class="grid grid-cols-2 p-6 space-x-4 space-y-6">
             <div class="flex flex-col gap-3">
                 <span class="text-xl font-semibold [font-variant:small-caps]"
                     >Experience</span
@@ -38,7 +38,6 @@
                     <span>{{ w.description }}</span>
                 </div>
                 {% endfor %}
-                <a href="/experience" class="text-sm text-center">see all</a>
             </div>
             <div class="flex flex-col gap-3">
                 <span class="text-xl font-semibold [font-variant:small-caps]"
@@ -50,7 +49,25 @@
                     <span>{{ p.description }}</span>
                 </div>
                 {% endfor %}
-                <a href="/projects" class="text-sm text-center">see all</a>
+            </div>
+            <div class="flex flex-col gap-3 col-span-2">
+                <span class="text-xl font-semibold [font-variant:small-caps]"
+                    >Recent Listening</span
+                >
+                {% for t in recent_tracks %}
+                <div class="flex flex-col text-sm">
+                    <div class="flex flex-row justify-between items-center">
+                        <div class="flex gap-4 items-center">
+                            <img src="{{ t.image_url}} " />
+                            <span>{{ t.name }}</span>
+                        </div>
+                        <div class="space-x-8">
+                            <span>{{ t.artist }}</span>
+                            <span class="text-zinc-500">{{ t.time_ago }}</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
