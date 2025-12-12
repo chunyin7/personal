@@ -206,6 +206,9 @@
   .w-screen {
     width: 100vw;
   }
+  .max-w-\[800px\] {
+    max-width: 800px;
+  }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -351,6 +354,16 @@
           color: var(--color-gray-400);
         }
       }
+    }
+  }
+  .sm\:grid-cols-1 {
+    @media (width >= 40rem) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  .md\:grid-cols-2 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 }
