@@ -348,6 +348,11 @@
       flex-direction: row;
     }
   }
+  .\*\:items-center {
+    :is(& > *) {
+      align-items: center;
+    }
+  }
   .\*\:gap-2 {
     :is(& > *) {
       gap: calc(var(--spacing) * 2);
