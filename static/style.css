@@ -13,6 +13,7 @@
     --color-zinc-400: oklch(70.5% 0.015 286.067);
     --color-zinc-500: oklch(55.2% 0.016 285.938);
     --color-zinc-900: oklch(21% 0.006 285.885);
+    --color-white: #fff;
     --spacing: 0.25rem;
     --text-xs: 0.75rem;
     --text-xs--line-height: calc(1 / 0.75);
@@ -185,6 +186,9 @@
   .col-span-2 {
     grid-column: span 2 / span 2;
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -196,6 +200,12 @@
   }
   .grid {
     display: grid;
+  }
+  .h-4 {
+    height: calc(var(--spacing) * 4);
+  }
+  .w-4 {
+    width: calc(var(--spacing) * 4);
   }
   .w-full {
     width: 100%;
@@ -220,6 +230,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
@@ -313,6 +326,9 @@
   .text-gray-300 {
     color: var(--color-gray-300);
   }
+  .text-white {
+    color: var(--color-white);
+  }
   .text-zinc-400 {
     color: var(--color-zinc-400);
   }
@@ -321,6 +337,30 @@
   }
   .\[font-variant\:small-caps\] {
     font-variant: small-caps;
+  }
+  .\*\:flex {
+    :is(& > *) {
+      display: flex;
+    }
+  }
+  .\*\:flex-row {
+    :is(& > *) {
+      flex-direction: row;
+    }
+  }
+  .\*\:gap-2 {
+    :is(& > *) {
+      gap: calc(var(--spacing) * 2);
+    }
+  }
+  .\*\:hover\:underline {
+    :is(& > *) {
+      &:hover {
+        @media (hover: hover) {
+          text-decoration-line: underline;
+        }
+      }
+    }
   }
   .sm\:grid-cols-1 {
     @media (width >= 40rem) {
