@@ -15,5 +15,5 @@ link = "https://github.com/chunyin7/MNIST-NeuralNetwork-C"
 
 [[project]]
 name = "chunyin.me"
-description = "this website"
+description = "this website, html + tailwind served with axum & askama from hetzner"
 link = "https://github.com/chunyin7/personal"
