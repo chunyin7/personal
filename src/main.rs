@@ -176,7 +176,10 @@ async fn get_listening() -> Option<Vec<DisplayTrack>> {
                 .unwrap()
                 .url
                 .clone();
-            let time_ago = format_time_ago(track.date.as_ref().unwrap().uts.as_str());
+            let time_ago = match track.date.as_ref() {
+                Some(date) => format_time_ago(date.uts.as_str()),
+                None => "now playing".to_string(),
+            };
             let name = track.name.clone();
 
             DisplayTrack {
