@@ -199,13 +199,15 @@ async fn get_listening() -> Option<Vec<DisplayTrack>> {
 
 fn load_work_experience() -> Vec<Work> {
     let content = std::fs::read_to_string("data/work.toml").unwrap_or("".to_string());
-    let experience: Experience = toml::from_str(&content).unwrap();
+    let experience: Experience =
+        toml::from_str(&content).unwrap_or(Experience { experience: vec![] });
     experience.experience
 }
 
 fn load_projects() -> Vec<Project> {
     let content = std::fs::read_to_string("data/projects.toml").unwrap_or("".to_string());
-    let projects: ProjectsData = toml::from_str(&content).unwrap();
+    let projects: ProjectsData =
+        toml::from_str(&content).unwrap_or(ProjectsData { project: vec![] });
     projects.project
 }
 

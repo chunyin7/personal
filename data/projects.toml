@@ -1,7 +1,7 @@
 [[project]]
-name = "halcyon"
-description = "[wip] fast, extensible macos launcher & productivity utility that just works, built in rust"
-link = "https://github.com/chunyin7/halcyon"
+name = "crabmake"
+description = "[wip] cargo inspired c/c++ build system in rust"
+link = "https://github.com/chunyin7/crabmake"
 
 [[project]]
 name = "stele"
