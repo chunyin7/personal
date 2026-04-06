@@ -6,18 +6,18 @@ end = "nov. '26"
 description = "trust & safety"
 
 [[experience]]
-title = "co-founder, cto"
-company = "inflect labs"
-start = "apr. '25"
-end = "jan. '26'"
-description = "shipping fullstack products for startups, scaled to $50k/mo"
-
-[[experience]]
 title = "asd intern"
 company = "google"
 start = "nov. '25"
 end = "feb. '26"
 description = "fully built & internally launched a new feature for google maps in android auto"
+
+[[experience]]
+title = "co-founder, cto"
+company = "inflect labs"
+start = "apr. '25"
+end = "jan. '26"
+description = "shipping fullstack products for startups, scaled to $50k/mo"
 
 [[experience]]
 title = "swe intern"
