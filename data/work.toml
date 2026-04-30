@@ -1,9 +1,16 @@
 [[experience]]
-title = "(incoming) backend swe intern"
+title = "(incoming) swe intern"
+company = "jane street"
+start = "nov. '26"
+end = "feb. '27'"
+description = ""
+
+[[experience]]
+title = "(incoming) swe intern"
 company = "tiktok"
 start = "jun. '26"
 end = "nov. '26"
-description = "trust & safety"
+description = "backend, trust & safety"
 
 [[experience]]
 title = "asd intern"
@@ -20,15 +27,8 @@ end = "jan. '26"
 description = "shipping fullstack products for startups, scaled to $50k/mo"
 
 [[experience]]
-title = "swe intern"
-company = "surgical xr"
-start = "nov. '24"
-end = "feb. '25"
-description = "empowering the proceduralists of the future with ai. computer vision r&d, frontend devevelopment"
-
-[[experience]]
-title = "eng intern"
-company = "endoluminal sciences"
-start = "dec. '21"
-end = "feb. '22"
-description = "building next gen medical devices. lead construction and qa for $400,000 commision of electronic masks."
+title = "intern"
+company = "[various startups]"
+start = "'21'"
+end = "'25'"
+description = "tinkering"
