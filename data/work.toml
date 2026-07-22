@@ -3,14 +3,14 @@ title = "(incoming) swe intern"
 company = "jane street"
 start = "nov. '26"
 end = "feb. '27"
-description = ""
+description = "hong kong"
 
 [[experience]]
-title = "(incoming) swe intern"
+title = "swe intern"
 company = "tiktok"
 start = "jun. '26"
 end = "nov. '26"
-description = "backend, trust & safety"
+description = "backend, search safety"
 
 [[experience]]
 title = "asd intern"
