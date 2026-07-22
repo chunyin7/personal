@@ -1,4 +1,9 @@
 [[project]]
+name = "mexpr"
+description = "[wip] functional expresion interpreter in ocaml"
+link = "https://github.com/chunyin7/mexpr"
+
+[[project]]
 name = "crabmake"
 description = "minimal & ergonomic cargo inspired c/c++ build tool in rust. incremental builds & parallel compilation."
 link = "https://github.com/chunyin7/crabmake"

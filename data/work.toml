@@ -24,11 +24,4 @@ title = "co-founder, cto"
 company = "inflect labs"
 start = "apr. '25"
 end = "jan. '26"
-description = "shipping fullstack products for startups, scaled to $50k/mo"
-
-[[experience]]
-title = "intern"
-company = "[various startups]"
-start = "2021"
-end = "2025"
-description = "tinkering"
+description = "product studio, scaled to $50k/mo"
