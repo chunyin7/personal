@@ -1,6 +1,6 @@
 [[project]]
-name = "mexpr"
-description = "[wip] functional expression interpreter in ocaml"
+name = "mx"
+description = "functional interpreted expression language in ocaml"
 link = "https://github.com/chunyin7/mexpr"
 
 [[project]]

@@ -10,14 +10,14 @@ title = "swe intern"
 company = "tiktok"
 start = "jun. '26"
 end = "nov. '26"
-description = "backend, search safety"
+description = "services serving millions of qps for search safety"
 
 [[experience]]
 title = "asd intern"
 company = "google"
 start = "nov. '25"
 end = "feb. '26"
-description = "fully built & internally launched a new feature for google maps in android auto"
+description = "navatars for maps in android auto"
 
 [[experience]]
 title = "co-founder, cto"
